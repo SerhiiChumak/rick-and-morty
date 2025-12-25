@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Rick_and_Morty.settings')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "Rick_and_Morty.settings")
 
 application = get_wsgi_application()
