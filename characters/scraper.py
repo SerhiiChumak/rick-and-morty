@@ -26,9 +26,11 @@ def scrape_characters() -> list[Character]:
 
     return characters
 
+
 def save_characters(characters: list[Character]) -> None:
     for character in characters:
         character.save()
+
 
 def sync_characters_with_api() -> None:
     characters = scrape_characters()
